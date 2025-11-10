@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to HTML Tutorial</h1>
+        
+        <ul>
+            <li><a href="./index.html">Home Page</a></li>
+            <li><a href="./introofweb.html">Introduction of Web development</a></li>
+            <li><a href="./basics.html">Basics of HTML</a></li>
+            <li><a href="./elements.html">HTML Elements and Attributes</a></li>
+            <li><a href="./list_table.html">HTML Lists and Tables</a></li>
+            <li><a href="./forms.html">Forms and Input</a></li>
+            <li><a href="./conclusion.html">Conclusion</a></li>
+            
+        </ul>
+    </header>
+    <main>
+        <h2>Forms and Input</h2>
+        <ol>
+            <li><h3>Introduction to HTML form:</h3>
+            <p>HTML form are essential for collecting user input on web pages.
+                Whether it's a search bar ,a login screen or a multi-field registration form,HTML FORMS
+                paly a key role in web interactions.They enable users to submit data ,which can be processed ,stored or returned by a server.
+            </p>
+            
+        </li>
+        <li><h3>Why do we use forms:</h3>
+            <p>Forms serve as the gateway between the user and the server,allowing for dynamic , interactive web experiences.</p>
+            <p>They are crucial for tasks such as user authentication,data submission,feedback collection and more .</p>
+        
+        </li>
+        <li><h3>HTML forms structure:</h3>
+            <form action="/submit-form" method="post">
+  <h2>Contact Us</h2>
+
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" required><br><br>
+
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" required><br><br>
+
+  <label for="password">Password:</label><br>
+  <input type="password" id="password" name="password"><br><br>
+
+  <label for="message">Message:</label><br>
+  <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+  <input type="submit" value="Submit">
+</form>
+
+        
+        </li>
+        <li><h3>How to use form controls?</h3>
+            <p>The &lt;input&gt; tag is commonly used to create  form controls.The attributes of this tag define the controls behavior.</p>
+            <ul>
+                <li>&lt;input type=" "  name=" " value=" "&gt;</li>
+                <ol>
+                    <li>The "type" attribute specifies the type of input control(e.g.,text,password,checkbox).</li>
+                    <li>The "name" attribute is used for  identifying the controls,especially when the data  is sent to the server.</li>
+                    <li>the "value" attribute sets a default value for the controls,which the user can overwrite.</li>
+                </ol>
+                 <li><p><img src="./form1.png" height="150px" width="250px" alt="image of form"></p></li>
+            </ul>
+        
+        </li>
+        <br>
+        <li><h3>HTML Input Types:</h3>
+            <p>Input type in HTML forms are the backbone of interactive web applications.They allow users to send information to  web servers for various purposes like searching,logging in etc.</p>
+            <ol>
+                <li><h4>Text Input:</h4>
+                    <p> The text input type is the most basics form of input and is widely used for collecting simple text data. </p>
+                    <p>Example: &lt;input type ="text" name="username" placeholder="enter your username"&gt;</p>
+                
+                
+                </li>
+                <li><h4>Password Input:</h4>
+                    <p>The password input type is similar to the text type but hides the characters entered by the user for security reasons.</p>
+                    <p>Example: &lt;input type ="password" name="password" placeholder="enter your password"&gt;</p>
+                    <p><img src="./form2.png" height="150px" width="250px" alt="image of form"></p>
+                
+                
+
+                
+                
+                </li>
+                <li><h4>Radio Buttons:</h4>
+                    <p>Radio buttons are used when you want the user to select only one option from a set of choices.</p>
+                    <p>Example: &lt;input type ="radio" id="male" name="gender" value=" male "&gt;</p>
+                
+                
+                
+                
+                
+                </li>
+                <li><h4>Checkbox:</h4>
+                    <p>Checkboxes allow the user to select multiple options from a set.</p>
+                    <p>Example: &lt;input type ="checkbox" id="subscribe"   value="yes"&gt;</p>
+                    <p><img src="./form3.png" height="150px" width="250px" alt="image of form"></p>
+                </p>
+
+
+                
+                
+                
+                </li>
+            </ol>
+           
+            
+        
+        
+        
+        </li>
+         
+        </ol>
+
+    </main>
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
